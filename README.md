@@ -13,6 +13,8 @@ Currently, two official plugins are available:
  -Building the Authentication using firebase.
  -create sign up authentication in firebase.
  -added store to the app.
+ -implemented sign out feature.
+ -updated the profile.
 
 
 # Features
