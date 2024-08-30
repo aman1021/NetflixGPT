@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 
 const VideoBackground = ({ movieId }) => {
   useTrailerVideo(movieId);
-  const trailerVideo = useSelector((store) => store.movies?.trailerVideo);
+  const trailerVideo = useSelector((store) => store?.movies?.trailerVideo);
   return (
     <div className="w-screen">
       <iframe
