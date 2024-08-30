@@ -60,7 +60,6 @@ const LogIn = () => {
               // An error occurred
               setErrMessage(error.message)
             });
-          console.log(user);
         })
         .catch((error) => {
           const errorCode = error.code;
@@ -76,7 +75,6 @@ const LogIn = () => {
       )
         .then((userCredential) => {
           const user = userCredential.user;
-          console.log("user signed in", user);
         })
         .catch((error) => {
           const errorCode = error.code;
